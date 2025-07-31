@@ -1,1 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
 
+body{
+    font-family: Arial,Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.page-heade,
+.page-description{
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+.page-header {
+    font-size: 2em;
+    margin: 20px 0 0;
+}
+
+.page-description {
+    font-size: 1.2em;
+    margin: 10px 0 40px;
+
+}

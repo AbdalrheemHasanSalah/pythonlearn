@@ -1,0 +1,31 @@
+.skill-box {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 450px;
+}
+
+
+.skill-box.skill-name {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+     
+.skill-box.skill-progress {
+    background-color: #cc7878;
+    padding: 10px;
+    position: relative;
+    
+}
+
+.skill-box .skill-progress.skill-progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* This will be dynamically set */
+    height: 100%;
+    background-color: #109bf1;
+}
